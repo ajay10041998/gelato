@@ -1,0 +1,41 @@
+.choose-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.choose-section{
+    display: flex;
+    flex-direction: row;
+    
+    width:100%;
+}
+.choose-img{
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.choose-image{
+    width:80%;
+}
+.icon-para{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 700;
+}
+.pointer-para{
+    display: flex;
+    flex-direction: column;
+    line-height:0.1;
+    list-style-type: none;
+    margin-top:10px;
+    
+}
+.pointer-paragrah{
+    font-size: 12px;
+    color:grey;
+
+}

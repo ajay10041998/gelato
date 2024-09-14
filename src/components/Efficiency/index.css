@@ -1,0 +1,23 @@
+.efficiency-container{
+    background-color: #faf6ef;
+    width:100%;
+    
+}
+.efficiency-list{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.e-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.percentege{
+    font-weight: 500;
+}
+.e-list-item p{
+    font-weight: 500;
+}

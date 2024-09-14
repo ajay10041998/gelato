@@ -1,0 +1,36 @@
+.growth-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+    margin-top:10px;
+    background-color: #faf6ef;
+    padding: 25px;
+}
+.growth-section-container{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    justify-content: flex-end;
+    width:40%;
+    padding: 10px;
+}
+.growthsection-image{
+    width:40%;
+    display: flex;
+    justify-content: flex-start;
+    padding:10px;
+}
+.growth-image{
+    width:70%;
+    background-color: transparent;
+    margin-right: 15px;
+    
+}
+.growth-button{
+    width:100px;
+    background-color: black;
+    color:white;
+    border-radius: 12px;
+    margin:16px;
+}

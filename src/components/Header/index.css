@@ -1,0 +1,89 @@
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:2px 10px 2px 10px;
+    height:60px;
+    
+    
+}
+.headcontainer{
+    display: flex;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+       
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    
+}
+.gelato-logo-heading-section{
+    display: flex;
+    align-items: center;
+}
+.gelato-image{
+    height:30px;
+    margin-right:10px;
+    background-color: transparent;
+}
+.nav-elements-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+}
+.list-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:0px 8px 0px 8px;
+}
+.list-item p {
+    margin-left:2px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.arrow-btn{
+    background-color: transparent;
+    color: black;
+    border: none;
+    height:10px;
+}
+.signup-button{
+    background-color: black;
+    color: white;
+    border-radius: 18px;
+    padding:8px;
+    margin:0px 5px 0p 8px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.hamburg-menu-container{
+    height:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding:2px 10px 2px 20px;
+    list-style-type: none;
+}
+.menu-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right:18px;
+    
+}
+.arrow-down-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+

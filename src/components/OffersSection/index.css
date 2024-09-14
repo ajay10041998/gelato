@@ -1,0 +1,28 @@
+.offers-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:10px;
+}
+.offers-slide-section{
+    display: flex;
+    float: column;
+    justify-content: center;
+    align-items: center;
+    width:70%;
+}
+.learnbtn{
+    width:150px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding:10px;
+}
+.offers-content-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 10px;
+    width: 20%;
+    padding:20px;
+}
